@@ -1,7 +1,8 @@
 <h3><?php echo $pageTitle; ?></h3>
-
-
-<?php echo $this->Html->link('Add New Property', 'http://bookingproject/hotels/add?owner_id=' .$owner_id, array('class' => 'add-button')); ?>
+<h3></h3>
+<?php echo $this->Html->link('Logout', 'http://bookingproject/hotels/index', array('class' => 'logout-button')); ?>
+<h3></h3>
+<?php echo $this->Html->link('Add New Property', 'http://bookingproject/hotels/add?owner_id=' .$owner_id, array('class' => 'add-button')); ?> 
 <h1></h1>
 <h1>List of Hotels</h1> 
 
