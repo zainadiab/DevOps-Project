@@ -26,6 +26,7 @@
                       <td><?php echo h($hotel['Hotel']['email']); ?></td>
                         <td> <?php echo $this->Html->link('Edit','http://bookingproject/hotels/edit?id='.$hotel['Hotel']['id'].'&owner='.$hotel['Hotel']['owner_id']); ?>
                         <?php echo $this->Html->link('Delete','http://bookingproject/hotels/delete?id='.$hotel['Hotel']['id'].'&owner='.$hotel['Hotel']['owner_id'],array('confirm' => 'Are you sure you want to delete this hotel?')); ?>
+                        <?php echo $this->Html->link('Reservations','http://bookingproject/hotels/viewReservations?id='.$hotel['Hotel']['id']); ?>
 
                       </td>
                   </tr>
